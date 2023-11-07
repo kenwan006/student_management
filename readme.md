@@ -1,12 +1,12 @@
-Frontend
+ Frontend
 1. Create vue project
-	- npm install vue/cli
-	- vue create project_name
+	- `npm install vue/cli`
+	- `vue create project_name`
 2. Copy all the files under front folder to your vue project
 3. Install all the dependencies
-	- npm i
+	- `npm i`
 4. Run the frontend vue project
-	- npm run serve 
+	- `npm run serve `
 
 Backend
 1. Create a springboot project in IDEA, and include all the dependencies in the pom.xml
@@ -17,5 +17,5 @@ Backend
 Database
 1. create a database named student_system;
 2. import the student.sql and user.sql, two tables (student and user) will be created
-	mysql -u username -p student_system < student.sql
-	mysql -u username -p student_system < user.sql
+   - `mysql -u username -p student_system < student.sql`
+   - `mysql -u username -p student_system < user.sql`
